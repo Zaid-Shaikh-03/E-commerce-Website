@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madh</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/chillax.css" />
+
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-family: 'Satoshi', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kodchasan&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-family: 'Kodchasan', sans-serif; -->
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/sproduct.css" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <section class="nevbar">
+      <nav class="navbar navbar-light bg-light navbar-expand-lg">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand ms-2 ps-lg-5 ps-xl-5"
+            href="./index.html"
+            style="font-family: 'Kodchasan', sans-serif"
+            >Madh</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-light"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title"
+                id="offcanvasNavbarLabel"
+                style="font-family: 'Kodchasan', sans-serif"
+              >
+                Madh
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-dark"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div
+              class="offcanvas-body d-block d-lg-flex justify-content-xl-end justify-content-lg-end me-xl-5"
+            >
+              <ul
+                class="nav nav-pills justify-content-xl-end justify-content-lg-end me-xl-5"
+              >
+                <li class="section-button nav-item">
+                  <a
+                    href="./index.html"
+                    class="navbar-item nav-link"
+                    aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li class="section-button nav-item">
+                  <a href="./Shoppage.html" class="navbar-item nav-link active"
+                    >Shop</a
+                  >
+                </li>
+                <li class="section-button nav-item">
+                  <a href="./AboutUsPage.html" class="navbar-item nav-link"
+                    >About Us</a
+                  >
+                </li>
+                <li class="section-button nav-item">
+                  <a href="./ContectUsPage.html" class="navbar-item nav-link"
+                    >Contect Us</a
+                  >
+                </li>
+                <li class="section-button nav-item2">
+                  <a href="../html/cart.html" class="navbar-item nav-link py-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-cart3 mx-2 my-2"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <!-- <div
+                class="col-xl-3 col-lg-4 col-md-12 d-flex justify-content-center"
+              ></div> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Single Product -->
+    <section id="prodetails" class="container px-4 px-lg-5 mt-5">
+      <div class="single-pro-image">
+        <img
+          src="../Asset/image/1080x1080.png"
+          alt=""
+          width="100%"
+          id="MainImg"
+        />
+
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              src="../Asset/image/1080x1080.png"
+              alt=""
+              width="100%"
+              class="small-img"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="../Asset/image/1080x1080.png"
+              alt=""
+              width="100%"
+              class="small-img"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="../Asset/image/1080x1080.png"
+              alt=""
+              width="100%"
+              class="small-img"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="../Asset/image/1080x1080.png"
+              alt=""
+              width="100%"
+              class="small-img"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6 class="section-heading">Shop / Cottage</h6>
+        <h4 class="section-heading fw-bold">Cottage Clothes 1</h4>
+        <h2 class="section-heading fw-bold">$50.00</h2>
+        <select class="section-heading">
+          <option>Select Size</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>Small</option>
+          <option>Large</option>
+        </select>
+        <input type="number" value="1" class="section-heading" />
+        <button class="section-button">Add To Cart</button>
+        <h4 class="section-heading fw-bold">Product Details</h4>
+        <span class="section-heading">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, fugit,
+          consectetur quas repellat debitis iste nostrum exercitationem
+          architecto accusamus minima magnam qui ducimus dicta blanditiis
+          voluptatem nisi doloremque, quia officia.</span
+        >
+      </div>
+    </section>
+    <!-- Related Product -->
+    <section id="related-product">
+      <div
+        class="container pt-4 px-4 px-lg-5 mt-5 d-flex justify-content-center"
+      >
+        <h2 class="section-heading fw-bolder">Related Product</h2>
+      </div>
+      <div class="container px-4 px-lg-5 mt-5">
+        <div
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+        >
+          <div class="Cottage_Clothes_divs col col-12 col-sm-6 mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <div class="product-img">
+                <a href="./sproduct.html">
+                  <img
+                    class="card-img-top"
+                    src="../Asset/image/cottage_clothes_display_2.jpg"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder section-heading">Cottage Clothes 1</h5>
+                  <!-- Product price-->
+                  <h5 class="mt-3">$4.00</h5>
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-dark mt-auto section-button"
+                    href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Cottage_Clothes_divs col col-12 col-sm-6 mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <div class="product-img">
+                <a href="./sproduct.html">
+                  <img
+                    class="card-img-top"
+                    src="../Asset/image/cottage_clothes_display_3.jpg"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder section-heading">Cottage Clothes 2</h5>
+                  <!-- Product price-->
+                  <h5 class="mt-3">$4.00</h5>
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-dark mt-auto section-button"
+                    href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Cottage_Clothes_divs col col-12 col-sm-6 mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <div class="product-img">
+                <a href="./sproduct.html">
+                  <img
+                    class="card-img-top"
+                    src="../Asset/image/cottage_clothes_display.jpg"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder section-heading">Cottage Clothes 3</h5>
+                  <!-- Product price-->
+                  <h5 class="mt-3">$4.00</h5>
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-dark mt-auto section-button"
+                    href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Cottage_Jewerly_divs col col-12 col-sm-6 mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <div class="product-img">
+                <a href="./sproduct.html">
+                  <img
+                    class="card-img-top"
+                    src="../Asset/image/jewerly_1.png"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder section-heading">Cottage Jewerly 1</h5>
+                  <!-- Product price-->
+                  <h5 class="mt-3">$4.00</h5>
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a
+                    class="btn btn-outline-dark mt-auto section-button"
+                    href="#"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- newsletter -->
+    <section id="newsletter">
+      <div class="newstext">
+        <h4>Sign Up For Newslettess</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button>Sign Up</button>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer id="footer" class="container mt-5 pt-3">
+      <div class="col">
+        <a
+          class="navbar-brand logo"
+          href="./index.html"
+          style="font-family: 'Kodchasan', sans-serif"
+          >Madh</a
+        >
+        <h4>Contect</h4>
+        <p>
+          <strong>Address: </strong>744 New York Ave, Brooklyn, Kings, New York
+          10244
+        </p>
+        <p><strong>Phone: </strong>(+642) 245 356 432 / (+420) 336 476 328</p>
+        <p><strong>Houors: </strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="./AboutUsPage.html">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="./ContectUsPage.html">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="./cart.html">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="../Asset/Logo/app.jpg" alt="" />
+          <img src="../Asset/Logo//play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="../Asset/Logo/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2023, Zaid Shaikh - HTML CSS Ecommerce Template</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      };
+      smallimg[1].onclick = function () {
+        MainImg.src = smallimg[1].src;
+      };
+      smallimg[2].onclick = function () {
+        MainImg.src = smallimg[2].src;
+      };
+      smallimg[3].onclick = function () {
+        MainImg.src = smallimg[3].src;
+      };
+    </script>
+  </body>
+</html>

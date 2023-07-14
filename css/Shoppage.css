@@ -1,0 +1,79 @@
+/* header */
+
+header {
+  background-image: url("../Asset/image/Shoppage_diaplay.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+/*  */
+.product-img {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 100%;
+}
+.product-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Section Button */
+.sessions-tab-link {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 12px 30px;
+}
+.sessions-tab-link.active {
+  background-color: #c69cf4;
+  color: #ffffff;
+}
+.sessions-tab-link:hover {
+  background-color: #c69cf4;
+  color: #ffffff;
+}
+/*  */
+.page-item > a {
+  background-color: #fff;
+  color: #000;
+}
+.page-item > a:hover {
+  background-color: #c69cf4;
+  color: #ffffff;
+}
+.page-item > a:active {
+  background-color: #c69cf4;
+  color: #ffffff;
+}
+.card-img-top img {
+  width: auto;
+  height: 350px;
+}
+
+@media (max-width: 1200px) {
+  .sessions-tab-link {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-pills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+  }
+  .sessions-tab-link {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+}

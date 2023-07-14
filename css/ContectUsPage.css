@@ -1,0 +1,173 @@
+/* header */
+header {
+  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+    url("../Asset/image/back9.jpg");
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+/* contect */
+#contect {
+  padding: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#contect .getin {
+  width: 350px;
+}
+#contect .getin h2 {
+  color: #2c234d;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 0.8;
+  margin-bottom: 16px;
+}
+#contect .getin p {
+  color: #686875;
+  line-height: 24px;
+  margin-bottom: 33px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5e4ed;
+}
+#contect .getin h3 {
+  color: #2c234d;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+#contect .getin .getin-details div {
+  display: flex;
+}
+#contect .getin .getin-details div .get {
+  font-size: 16px;
+  line-height: 22px;
+  color: #c69cf4;
+  margin-right: 20px;
+}
+#contect .getin .getin-details div p {
+  font-size: 14px;
+  border-bottom: none;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+#contect .getin .getin-details .pro-links i {
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 7px;
+  margin-right: 8px;
+}
+#contect .form {
+  width: 60%;
+  background-color: #f7f6fa;
+  padding: 40px;
+  border-radius: 10px;
+}
+#contect .form h4 {
+  font-size: 24px;
+  color: #2c234d;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+#contect .form p {
+  color: #686875;
+  line-height: 24px;
+  padding-bottom: 25px;
+}
+#contect .form .form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#contect .form .form-row input {
+  width: 48%;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none;
+  background-color: #fff;
+  color: #7e7c87;
+  outline: none;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+#contect .form .form-col input,
+#contect .form .form-col textarea {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: none;
+  background-color: #fff;
+  color: #7e7c87;
+  outline: none;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+#contect .form button {
+  font-size: 0.9rem;
+  padding: 13px 25px;
+  background: #c69cf4;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+}
+#map {
+  width: 100%;
+  height: 70vh;
+}
+#map iframe {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 992px) {
+  .nav-pills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+  }
+}
+
+@media (max-width: 769px) {
+  #contect {
+    padding: 8vw 4vw;
+  }
+  #contect .getin {
+    width: 250px;
+  }
+}
+
+@media (max-width: 475px) {
+  #contect {
+    padding: 8vw 4vw;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  #contect .getin {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #contect .form {
+    width: 100%;
+    padding: 40px 30px;
+  }
+  #contect .form .form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  #contect .form .form-row input {
+    width: 100%;
+  }
+}
